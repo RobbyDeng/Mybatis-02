@@ -1,0 +1,102 @@
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 1759899303.
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68e5eea7]
+==>  Preparing: select * from mybatis.user; 
+==> Parameters: 
+<==      Total: 4
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68e5eea7]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68e5eea7]
+Returned connection 1759899303 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 1759899303.
+Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68e5eea7]
+==>  Preparing: select * from mybatis.user; 
+==> Parameters: 
+<==      Total: 4
+Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68e5eea7]
+Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@68e5eea7]
+Returned connection 1759899303 to pool.
+[DEBUG][2020-03-23 14:44:14,737(yy-MM-dd)][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2020-03-23 14:44:14,738(yy-MM-dd)][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2020-03-23 14:44:14,761(yy-MM-dd)][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2020-03-23 14:44:14,762(yy-MM-dd)][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2020-03-23 14:44:14,762(yy-MM-dd)][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2020-03-23 14:44:14,762(yy-MM-dd)][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2020-03-23 14:44:14,843(yy-MM-dd)][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2020-03-23 14:44:15,235(yy-MM-dd)][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 838449246.
+[DEBUG][2020-03-23 14:44:15,235(yy-MM-dd)][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31f9b85e]
+[DEBUG][2020-03-23 14:44:15,239(yy-MM-dd)][com.dyr.dao.UserMapper.getUserList]==>  Preparing: select * from mybatis.user; 
+[DEBUG][2020-03-23 14:44:15,272(yy-MM-dd)][com.dyr.dao.UserMapper.getUserList]==> Parameters: 
+[DEBUG][2020-03-23 14:44:15,303(yy-MM-dd)][com.dyr.dao.UserMapper.getUserList]<==      Total: 4
+[DEBUG][2020-03-23 14:44:15,305(yy-MM-dd)][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31f9b85e]
+[DEBUG][2020-03-23 14:44:15,306(yy-MM-dd)][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31f9b85e]
+[DEBUG][2020-03-23 14:44:15,306(yy-MM-dd)][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 838449246 to pool.
+[INFO][2020-03-23 14:59:44,796(yy-MM-dd)][com.dyr.dao.UserMapperTest]info:进入了testLog4j
+[DEBUG][2020-03-23 14:59:44,797(yy-MM-dd)][com.dyr.dao.UserMapperTest]debug:进入了testLog4j
+[ERROR][2020-03-23 14:59:44,797(yy-MM-dd)][com.dyr.dao.UserMapperTest]error:进入了testLog4j
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 758119607.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2d2ffcb7]
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.addUser]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?); 
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.addUser]==> Parameters: 8(Integer), 温宁(String), 123(String)
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.addUser]<==    Updates: 1
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2d2ffcb7]
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2d2ffcb7]
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2d2ffcb7]
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 758119607 to pool.
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 515715487.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1ebd319f]
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]==>  Preparing: select * from mybatis.user limit ?,? 
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]==> Parameters: 0(Integer), 2(Integer)
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 515715487.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1ebd319f]
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]==>  Preparing: select * from mybatis.user limit ?,? 
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]==> Parameters: 0(Integer), 2(Integer)
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]<==      Total: 2
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 515715487.
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1ebd319f]
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]==>  Preparing: select * from mybatis.user limit ?,? 
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]==> Parameters: 0(Integer), 2(Integer)
+[DEBUG][20-03-23][com.dyr.dao.UserMapper.getUserByLimit]<==      Total: 2
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1ebd319f]
+[DEBUG][20-03-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1ebd319f]
+[DEBUG][20-03-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 515715487 to pool.
